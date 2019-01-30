@@ -6,7 +6,76 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e6c06d0-1f0b-4837-a37e-e06f3cade3eb" name="Default Changelist" comment="" />
+    <list default="true" id="1e6c06d0-1f0b-4837-a37e-e06f3cade3eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database/initDB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ParserMultithreading_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ParserMultithreading_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParserMultithreading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ParserMultithreading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/connection/DbConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/controller/AddArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/controller/CounterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/dao/ArticleDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/dao/GenericDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/dao/factory/FactoryDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/dao/jdbcDaoImpl/ArticleDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/model/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/services/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/classes/services/WordCountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/addArticle.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/article.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/resultCounter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ParserMultithreading_war_exploded/wordCount.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/connection/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/connection/DbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AddArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CounterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CounterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/ArticleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/ArticleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/factory/FactoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/factory/FactoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/WordCountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/WordCountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/connection/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/connection/DbConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/controller/AddArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/controller/AddArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/controller/CounterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/controller/CounterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/dao/ArticleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/dao/ArticleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/dao/factory/FactoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/dao/factory/FactoryDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/dao/jdbcDaoImpl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/dao/jdbcDaoImpl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/model/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/services/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/services/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/services/WordCountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/classes/services/WordCountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ParserMultithreading-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-6.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/connection/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/connection/DbConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/AddArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/AddArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CounterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CounterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/ArticleDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/ArticleDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/factory/FactoryDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/factory/FactoryDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/jdbcDaoImpl/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/jdbcDaoImpl/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/WordCountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/WordCountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addArticle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/article.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/resultCounter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resultCounter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wordCount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/wordCount.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,44 +84,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1506985582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.69" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="14" />
-          <entry key="jsp" value="9" />
-          <entry key="xml" value="4" />
+          <entry key="category" value="2" />
+          <entry key="class" value="14" />
+          <entry key="java" value="67" />
+          <entry key="jsp" value="21" />
+          <entry key="sql" value="8" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="14" />
-          <entry key="JSP" value="9" />
-          <entry key="XML" value="4" />
+          <entry key="CLASS" value="14" />
+          <entry key="Database Element" value="2" />
+          <entry key="JAVA" value="67" />
+          <entry key="JSP" value="21" />
+          <entry key="SQL" value="2" />
+          <entry key="Scratch" value="6" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2" />
-          <entry key="jsp" value="16" />
-          <entry key="xml" value="18" />
+          <entry key="java" value="2889" />
+          <entry key="jsp" value="248" />
+          <entry key="sql" value="311" />
+          <entry key="txt" value="9" />
+          <entry key="xml" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSP" value="16" />
-          <entry key="XML" value="18" />
+          <entry key="JAVA" value="2889" />
+          <entry key="JSP" value="248" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="SQL" value="49" />
+          <entry key="Scratch" value="262" />
+          <entry key="XML" value="112" />
         </counts>
       </usages-collector>
     </session>
@@ -62,83 +157,91 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/resultCounter.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resultCounter.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/article.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/services/WordCountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Article.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="375">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu-item-object-category</find>
+      <find>sub-men</find>
+      <find>sub-</find>
+      <find>art</find>
+      <find>&lt;p</find>
+      <find>post-</find>
+      <find>post-ti</find>
+      <find>post-co</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/GenericDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/ArticleDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/connection/DbConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/CounterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AddArticleController.java" />
         <option value="$PROJECT_DIR$/web/article.jsp" />
         <option value="$PROJECT_DIR$/web/addArticle.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ArticleDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="410fd558-ec6d-42c1-9e9f-d3c5ef3be844/schema/parserdb/table/article.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/connection/DbConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Article.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/factory/FactoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database/initDB.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addArticle.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/article.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/AddArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/wordCount.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resultCounter.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/CounterController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/410fd558-ec6d-42c1-9e9f-d3c5ef3be844/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/services/WordCountService.java" />
       </list>
     </option>
   </component>
@@ -167,17 +270,6 @@
           <item name="ParserMultithreading" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ParserMultithreading" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ParserMultithreading" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="war" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -187,11 +279,14 @@
     <option name="width" value="830" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,63 +320,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ParserMultithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParserMultithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParserMultithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParserMultithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="ParserMultithreading-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParserMultithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParserMultithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="ParserMultithreading-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParserMultithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParserMultithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="ParserMultithreading-1.0-SNAPSHOT" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParserMultithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParserMultithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ParserMultithreading" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ParserMultithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548655024499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548811309068" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dao.jdbcDaoImpl" />
       <recent name="connection" />
@@ -305,8 +366,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_181\jre">
+  <component name="RunManager" selected="Tomcat Server.parser2">
+    <configuration name="parser" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8079/parser" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ParserMultithreading:war exploded">
@@ -317,6 +381,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_ParserMultithreading" />
+        <option name="HTTP_PORT" value="6969" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -371,10 +436,85 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method v="2" />
+    </configuration>
+    <configuration name="parser2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.371" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:7777" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ParserMultithreading:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ParserMultithreading_2" />
+        <option name="HTTP_PORT" value="7777" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58665" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ParserMultithreading:war exploded" />
+        </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.parser" />
+      <item itemvalue="Tomcat Server.parser2" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -387,17 +527,19 @@
       <option name="presentableId" value="Default" />
       <updated>1548633548671</updated>
       <workItem from="1548633559189" duration="3303000" />
-      <workItem from="1548655346598" duration="224000" />
+      <workItem from="1548655346598" duration="4171000" />
+      <workItem from="1548705317642" duration="813000" />
+      <workItem from="1548707347092" duration="35455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3303000" />
+    <option name="totallyTimeSpent" value="43742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17583893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24899329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,63 +547,31 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45248228" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32907802" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932885" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.33617023" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.59716314" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.9148936" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.17718121" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.18456376" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.111409396" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.10134228" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.5702128" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" visible="true" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -469,69 +579,234 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/Parser.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/WordCountService.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/services/WordCountService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/CounterController.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ArticleDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/connection/DbConnection.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/factory/FactoryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/WordCountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/services/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CounterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/wordCount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="818" selection-start-line="818" selection-end-line="818" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/addArticle.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" selection-start-column="65" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -542,51 +817,284 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ArticleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resultCounter.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="166">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="65" />
+        <state relative-caret-position="132">
+          <caret line="478" column="12" selection-start-line="478" selection-start-column="12" selection-end-line="478" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://410fd558-ec6d-42c1-9e9f-d3c5ef3be844/schema/parserdb/table/article.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="96">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ArticleDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/connection/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/initDB.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addArticle.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Article.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="589">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/article.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="237">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/Jsoup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/helper/HttpConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/helper/Validate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/select/Evaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="490" selection-start-line="490" selection-end-line="490" />
+          <folding>
+            <element signature="e#14416#14417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/select/Collector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar!/org/jsoup/nodes/Element.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#3707#3708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/CategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://410fd558-ec6d-42c1-9e9f-d3c5ef3be844/schema/parserdb/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AddArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3999#4000#0" expanded="true" />
+            <element signature="e#4033#4034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/GenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/factory/FactoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/wordCount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/410fd558-ec6d-42c1-9e9f-d3c5ef3be844/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/CounterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resultCounter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/article.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jdbcDaoImpl/ArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/services/WordCountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,6 +1177,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -13,22 +13,15 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-@WebServlet("/article")
+
 public class ArticleController extends HttpServlet {
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
-    }
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String action = request.getServletPath();
-        if(action.equals("/article")) {
             try {
                 listArticle(request, response);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-        }
 
     }
 

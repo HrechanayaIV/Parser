@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DbConnection {
-    private static DbConnection indtance;
+    private static DbConnection instance;
     private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String JDBC_URL = "jdbc:mysql://localhost/parserdb";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/parserdb";
     private static final String USER = "root";
     private static final String PASSWORD = "password";
 
@@ -19,8 +19,8 @@ public class DbConnection {
         }
     }
     public static Connection getConnection()throws SQLException {
-        if(indtance == null){
-            indtance = new DbConnection();
+        if(instance == null){
+            instance = new DbConnection();
         }
         try {
             return DriverManager.getConnection(JDBC_URL, USER, PASSWORD);

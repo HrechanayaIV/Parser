@@ -1,39 +1,23 @@
 package model;
 
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Article {
-    private Long article_id;
+    private Integer article_id;
     private String url;
     private String title;
-    private String text;
-
-    public Article(AtomicInteger id, String url, String title, String text) {
-        //this.article_id = id;
-        this.url = url;
-        this.title = title;
-        this.text = text;
-    }
+    private String article_text;
+    private Integer category_id;
 
     public Article() {
     }
 
-    public Article(String url, String title) {
-        this.url = url;
-        this.title = title;
-    }
-
-    public Article(Long article_id, String url, String title, String text) {
+    public Article(Integer article_id, String url, String title, String article_text, Integer category_id) {
         this.article_id = article_id;
         this.url = url;
         this.title = title;
-        this.text = text;
+        this.article_text = article_text;
+        this.category_id = category_id;
     }
-
-    public Long getId() {
-        return article_id;
-    }
-    public void setId(Long id) { this.article_id = id; }
 
     public String getUrl() {
         return url;
@@ -51,20 +35,27 @@ public class Article {
         this.title = title;
     }
 
-    public String getText() {
-        return text;
+    public Integer getArticle_id() {
+        return article_id;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setArticle_id(Integer article_id) {
+        this.article_id = article_id;
     }
 
-    @Override
-    public String toString() {
-        return "Article{\n" +
-                "url='" + url + '\n' +
-                ", title='" + title + '\n' +
-                ", text = " + text + '\n' +
-                '}';
+    public String getArticle_text() {
+        return article_text;
+    }
+
+    public void setArticle_text(String article_text) {
+        this.article_text = article_text;
+    }
+
+    public Integer getCategory_id() {
+        return category_id;
+    }
+
+    public void setCategory_id(Integer categoryId) {
+        this.category_id = categoryId;
     }
 }

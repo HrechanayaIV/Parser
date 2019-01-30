@@ -1,11 +1,14 @@
+model\Article.class
+dao\CategoryDAO.class
+services\Parser.class
+dao\jdbcDaoImpl\CategoryDaoImpl.class
 dao\ArticleDAO.class
 connection\DbConnection.class
 controller\CounterController.class
-model\Article.class
 services\WordCountService.class
 controller\ArticleController.class
+model\Category.class
 controller\AddArticleController.class
 dao\factory\FactoryDAO.class
 dao\jdbcDaoImpl\ArticleDaoImpl.class
-services\Parser.class
 dao\GenericDAO.class
