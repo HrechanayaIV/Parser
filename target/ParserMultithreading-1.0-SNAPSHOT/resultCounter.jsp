@@ -15,7 +15,7 @@
     </tr>
     <tr>
         <td>${word}</td>
-        <td><%request.getAttribute("quantity"); %></td>
+        <td>${quantity}</td>
     </tr>
 </table>
 </div>

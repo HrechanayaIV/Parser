@@ -16,7 +16,7 @@ import java.util.Map;
 public class CounterController extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String word = req.getParameter("word");
         String id = req.getParameter("id");
         Integer quantity = 0;
@@ -26,7 +26,7 @@ public class CounterController extends HttpServlet {
             e.printStackTrace();
         }
         req.setAttribute("word", word);
-        req.setAttribute("quantity", quantity);
+        req.setAttribute("quantity", quantity.toString());
         RequestDispatcher dispatcher = req.getRequestDispatcher("/resultCounter.jsp");
 
         dispatcher.forward(req, resp);

@@ -5,7 +5,8 @@
     <title>All Articles</title>
 </head>
 <body>
-
+<div><a href="addArticle">Add new article</a> </div>
+<div><a href="wordCount.jsp">Count occurrences of a word in string</a> </div>
 <div align="center">
     <table border="1" cellpadding="5">
         <caption><h2>List of Articles</h2></caption>

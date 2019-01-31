@@ -1,6 +1,6 @@
 package dao.factory;
 
-import connection.DbConnection;
+import connection.MyConnectionPool;
 import dao.ArticleDAO;
 import dao.CategoryDAO;
 import dao.jdbcDaoImpl.ArticleDaoImpl;
@@ -13,13 +13,14 @@ public class FactoryDAO {
     private static CategoryDAO categoryDAO;
     public static ArticleDAO getArticleDAO() throws SQLException {
         if(articleDAO == null){
-            articleDAO = new ArticleDaoImpl(DbConnection.getConnection());
+            //articleDAO = new ArticleDaoImpl(DbConnection.getConnection());
+            articleDAO = new ArticleDaoImpl(MyConnectionPool.getInstance().getConnection());
         }
         return articleDAO;
     }
     public static CategoryDAO getCategoryDAO() throws SQLException {
         if(categoryDAO == null){
-            categoryDAO = new CategoryDaoImpl(DbConnection.getConnection());
+            categoryDAO = new CategoryDaoImpl(MyConnectionPool.getInstance().getConnection());
         }
         return categoryDAO;
     }

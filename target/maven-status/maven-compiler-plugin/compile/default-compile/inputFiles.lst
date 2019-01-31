@@ -7,6 +7,7 @@ C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\dao\jdbcDaoImpl\Ca
 C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\dao\factory\FactoryDAO.java
 C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\controller\AddArticleController.java
 C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\model\Article.java
+C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\connection\MyConnectionPool.java
 C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\dao\CategoryDAO.java
 C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\controller\ArticleController.java
 C:\Users\Inna\IdeaProjects\ParserMultithreading\src\main\java\services\Parser.java

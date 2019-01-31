@@ -1,6 +1,8 @@
 package model;
 
 
+import java.util.Objects;
+
 public class Article {
     private Integer article_id;
     private String url;
@@ -57,5 +59,33 @@ public class Article {
 
     public void setCategory_id(Integer categoryId) {
         this.category_id = categoryId;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Article article = (Article) o;
+        return Objects.equals(article_id, article.article_id) &&
+                Objects.equals(url, article.url) &&
+                Objects.equals(title, article.title) &&
+                Objects.equals(article_text, article.article_text) &&
+                Objects.equals(category_id, article.category_id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(article_id, url, title, article_text, category_id);
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "article_id=" + article_id +
+                ", url='" + url + '\'' +
+                ", title='" + title + '\'' +
+                ", article_text='" + article_text + '\'' +
+                ", category_id=" + category_id +
+                '}';
     }
 }

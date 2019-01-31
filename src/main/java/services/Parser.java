@@ -25,7 +25,7 @@ public class Parser {
     private static final String ID_VALUE = "post-content";
     private static final String HREF_VALUE = "href";
     private static final String A_TAG = "a";
-    private static final String P_TAG = "p";
+    //private static final String P_TAG = "p";
     private static final String LI_TAG = "li";
 
     static List<Article> articleList;
@@ -92,8 +92,6 @@ public class Parser {
         postElements.forEach(postElement->{
             String tagText = postElement.text();
             text.append(tagText);
-            // Elements pTagText = postElement.getElementsByTag(P_TAG).;
-            //pTagText.forEach(tagText-> text.append(tagText.text()));
         });
 
 

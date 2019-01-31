@@ -2,6 +2,7 @@ model\Article.class
 dao\CategoryDAO.class
 services\Parser.class
 dao\jdbcDaoImpl\CategoryDaoImpl.class
+connection\MyConnectionPool.class
 dao\ArticleDAO.class
 connection\DbConnection.class
 controller\CounterController.class

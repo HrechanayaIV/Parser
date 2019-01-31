@@ -1,6 +1,7 @@
 package model;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Category {
     private Integer category_id;
@@ -47,6 +48,22 @@ public class Category {
 
     public void setArticles(List<Article> articles) {
         this.articles = articles;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Category category = (Category) o;
+        return Objects.equals(category_id, category.category_id) &&
+                Objects.equals(category_name, category.category_name) &&
+                Objects.equals(category_url, category.category_url) &&
+                Objects.equals(articles, category.articles);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(category_id, category_name, category_url, articles);
     }
 
     @Override

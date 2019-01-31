@@ -4,7 +4,7 @@
     <title>Get word count</title>
 </head>
 <body>
-<form action="wordCount" method="post">
+<form action="wordCount" method="get">
     <table style="with: 50%">
         <tr>
             <td>Input word :</td>
